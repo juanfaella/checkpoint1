@@ -5,6 +5,7 @@
 }
 body{
     background-color: #d1d1d1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
     height: 150px;
@@ -74,6 +75,7 @@ nav a{
     position: relative;
     top: 50px;
     left: 180px;
+    font-weight: bold;
 }
 .articles p{
     width: 246px;
