@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    background-color: #d1d1d1;
+}
+.navbar{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background-image: url(../img/redes-neuronales.png);
+    color: white;
+}
+h1{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.about-ia{
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+    padding: 20px;
+    gap: 20px;
+}
+.about-ia p{
+    text-align: center;
+    width: 1200px;
+}
+.img-article{
+    width: 256px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    align-items: center;
+    height: 160px;
+}
+.latest-article{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
+.container-articles{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.articles{
+    border: 2px solid rgba(0, 0, 0, 0.301);
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.48);
+    -webkit-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 4px 10px -4px rgba(0,0,0,0.48);
+}
+.read-more{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 180px;
+}
+.articles p{
+    width: 246px;
+    margin: 10px 0 0 10px;
+    font-weight: bold;
+}
+.applications-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    gap: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+.ia-products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+main{
+    padding-bottom: 40px;
+}
+footer{
+    background-color: #4caf50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+.ia-mail{
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width: 1200px){
+    .about-ia p{
+        width: 1000px;
+    }
+}
+@media screen and (max-width: 980px){
+    .about-ia p{
+        width: 800px;
+    }
+}
+@media screen and (max-width: 800px){
+    .about-ia p{
+        width: 600px;
+    }
+}
+@media screen and (max-width: 650px){
+    .about-ia p{
+        width: 400px;
+    }
+    footer{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+@media screen and (max-width: 400px){
+    .about-ia p{
+        width: 300px;
+    }
+}
